@@ -73,7 +73,6 @@ app.listen(port, () => {
 })
 
 client.on('messageCreate', async message => {
-    checkLoas();
     if (message.author.bot) return;
     const args = message.content.split(' ');
 
